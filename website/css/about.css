@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+nav{
+    width: 100%;
+    background-color: rgb(155, 159, 159);
+    /* height: 5vh; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+span h4{
+    position: relative;
+    top: -3vh;
+    left: -46vw;
+    color: rgb(72, 70, 70);
+    text-shadow: 2px 2px 5px white;
+}
+
+#item1{
+    width: 3vw;
+    height: 3vw;
+    position: relative;
+    top:1.9vh;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50%;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/04/01/61/58/1000_F_401615834_ZCkOo1mNXt6DE2ySsFrkIfLyBPXmenA3.jpg);
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+nav span{
+    font-size: larger;
+    font-weight: bold;
+    padding: 1vh 1vw;
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+color: red;
+}
+#item1{
+    position: relative;
+    left: -50vw;
+    /* background:linear-gradient(#2563f4 ,#48f825 ,#d31a1a00);
+    -webkit-text-stroke: ;
+    color:transparent; */
+}
+
+
+.container{
+    text-indent: 15px;
+    line-height: 5vh;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(61, 64, 64);
+    color: white;
+    display: flex;
+}
+.foot{
+    width: 100%;
+    height: auto;
+  
+}
+.rightfooter{
+    width: 50%;
+    height: 50%;
+    /* background-color: rebeccapurple; */
+}
+
+ul >li {
+    list-style: none;
+    padding: 2vh 1vw;
+    color: white;
+}
+
+.foot>span{
+    padding-left: 1vw;
+}
+
+h5{
+    font-size: large;
+    font-style: italic;
+    color: white;
+}
